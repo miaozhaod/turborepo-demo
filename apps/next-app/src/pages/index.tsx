@@ -2,7 +2,7 @@ import React from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-// import { Button } from 'ui/Button'
+import { Button } from 'ui/Button'
 import { CoolInterface } from 'server/src/lib/CoolInterface'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -17,7 +17,7 @@ const Home: NextPage = () => (
     </Head>
 
     <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-      {/* <Button /> */}
+      <Button />
       <div className="bg-yellow-200 h-12 w-12" />
     </main>
 
